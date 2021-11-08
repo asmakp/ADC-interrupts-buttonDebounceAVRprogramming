@@ -2,7 +2,7 @@
 #define SERIAL_H_
 #define F_CPU 16000000UL //Added by me
 #define BAUDRATE 38400
-#define UBRR (F_CPU/16/BAUDRATE-1)
+#define UBRR (F_CPU / 16 / BAUDRATE - 1)
 
 void uart_init(void);
 
@@ -13,4 +13,3 @@ char uart_getchar(void);
 void uart_putstr(const char *str);
 
 #endif
-

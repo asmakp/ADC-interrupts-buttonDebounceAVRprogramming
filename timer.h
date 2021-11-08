@@ -7,4 +7,6 @@ void timer_intitPWM(void);
 
 void timer2_init(void);
 
+void timer2_init_rampling(void);
+
 #endif // _TIMER_H_
